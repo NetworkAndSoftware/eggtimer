@@ -1,0 +1,16 @@
+<Combine name="eggtimer" fileversion="2.0">
+  <Configurations active="Debug|Any CPU">
+    <Configuration name="Debug|Any CPU" ctype="CombineConfiguration">
+      <Entry build="True" name="eggtimer" configuration="Debug|Any CPU" />
+    </Configuration>
+    <Configuration name="Release|Any CPU" ctype="CombineConfiguration">
+      <Entry build="True" name="eggtimer" configuration="Release|Any CPU" />
+    </Configuration>
+  </Configurations>
+  <StartMode startupentry="eggtimer" single="True">
+    <Execute type="None" entry="eggtimer" />
+  </StartMode>
+  <Entries>
+    <Entry filename="./eggtimer.csproj" />
+  </Entries>
+</Combine>
